@@ -135,7 +135,7 @@ BufferReader = ["storybakery/buffer_reader@0.1.0 roblox", "standard"]
 [graph."storybakery/buffer_builder@0.1.0 roblox".pkg_ref]
 ref_ty = "git"
 repo = "https://github.com/StoryBakery/BufferBuilder"
-tree_id = "aa5a15b02fc31376ee887651e658cde4167065bb"
+tree_id = "a0e5abf54f2ec143c22c5de3a7db23aa7a9e2a7e"
 new_structure = true
 
 [graph."storybakery/buffer_builder@0.1.0 roblox".pkg_ref.dependencies]
@@ -146,7 +146,7 @@ scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://g
 [graph."storybakery/buffer_reader@0.1.0 roblox".pkg_ref]
 ref_ty = "git"
 repo = "https://github.com/StoryBakery/BufferReader"
-tree_id = "0989c7019edc76d6d4ea127f25bf547905ce5ced"
+tree_id = "c0934e541f325aeedcd35be75cdc1e5ed27fbe6f"
 new_structure = true
 
 [graph."storybakery/buffer_reader@0.1.0 roblox".pkg_ref.dependencies]
@@ -165,7 +165,7 @@ Signal = ["storybakery/signal@0.1.0 roblox", "standard"]
 [graph."storybakery/dynamic_tween@0.1.0 roblox".pkg_ref]
 ref_ty = "git"
 repo = "https://github.com/StoryBakery/DynamicTween"
-tree_id = "5fb83e7dbf22aad548a3847b961795a8afd3f0fb"
+tree_id = "a66b6d04ab34789eda6285a67bdbfd241630ee35"
 new_structure = true
 
 [graph."storybakery/dynamic_tween@0.1.0 roblox".pkg_ref.dependencies]
@@ -179,7 +179,7 @@ Signal = [{ repo = "https://github.com/StoryBakery/Signal", rev = "main" }, "sta
 [graph."storybakery/linear_interpolation@0.1.0 roblox".pkg_ref]
 ref_ty = "git"
 repo = "https://github.com/StoryBakery/LinearInterpolation"
-tree_id = "1bd8d0a62dd268d97ea9124885f7f114a6ccf55f"
+tree_id = "85116bf2e99a103712a91dc842fe92113a092b27"
 new_structure = true
 
 [graph."storybakery/linear_interpolation@0.1.0 roblox".pkg_ref.dependencies]
@@ -195,7 +195,7 @@ Signal = ["storybakery/signal@0.1.0 roblox", "standard"]
 [graph."storybakery/maid@0.1.0 roblox".pkg_ref]
 ref_ty = "git"
 repo = "https://github.com/StoryBakery/Maid"
-tree_id = "43386870a218764d9e9b33417201fc3c659ca142"
+tree_id = "47684052da7b92b459c4680a227b7cfdc52075f1"
 new_structure = true
 
 [graph."storybakery/maid@0.1.0 roblox".pkg_ref.dependencies]
@@ -206,7 +206,7 @@ Signal = [{ repo = "https://github.com/StoryBakery/Signal", rev = "main" }, "sta
 [graph."storybakery/math_util@0.1.0 roblox".pkg_ref]
 ref_ty = "git"
 repo = "https://github.com/StoryBakery/MathUtil"
-tree_id = "0c15fd8569741f1b7e620712af632cbcb5413c37"
+tree_id = "6769466bf0b8d34143ff8cf6108926f1e4182885"
 new_structure = true
 
 [graph."storybakery/math_util@0.1.0 roblox".pkg_ref.dependencies]
@@ -220,7 +220,7 @@ promise = ["wally#evaera/promise@4.0.0 roblox", "standard"]
 [graph."storybakery/replicated_instance_id@0.1.0 roblox".pkg_ref]
 ref_ty = "git"
 repo = "https://github.com/StoryBakery/ReplicatedInstanceId"
-tree_id = "cc5af1ecfa665937a7ff1bddeb79d519bfbbf18b"
+tree_id = "ccd2d7e0a739fa4c4544dd0506ad0b13f62fd404"
 new_structure = true
 
 [graph."storybakery/replicated_instance_id@0.1.0 roblox".pkg_ref.dependencies]
@@ -235,7 +235,7 @@ direct = ["Signal", { repo = "https://github.com/StoryBakery/Signal", rev = "mai
 [graph."storybakery/signal@0.1.0 roblox".pkg_ref]
 ref_ty = "git"
 repo = "https://github.com/StoryBakery/Signal"
-tree_id = "656b3ed033d1d354671ad8878bcc2ea0bfe015a6"
+tree_id = "7124ded1236b42ca03ecad3727a80882a7cc62ac"
 new_structure = true
 
 [graph."storybakery/signal@0.1.0 roblox".pkg_ref.dependencies]
@@ -245,7 +245,7 @@ scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://g
 [graph."storybakery/table_util@0.1.0 roblox".pkg_ref]
 ref_ty = "git"
 repo = "https://github.com/StoryBakery/TableUtil"
-tree_id = "02028af76610eb23eb3be45e06b62a367a18e9d4"
+tree_id = "b43b12c396f90effb4dfe551165711ca54f790e4"
 new_structure = true
 
 [graph."storybakery/table_util@0.1.0 roblox".pkg_ref.dependencies]
@@ -259,7 +259,7 @@ TableUtil = ["storybakery/table_util@0.1.0 roblox", "standard"]
 [graph."storybakery/type_infos@0.1.0 roblox".pkg_ref]
 ref_ty = "git"
 repo = "https://github.com/StoryBakery/TypeInfos"
-tree_id = "363bc56881825019c6f2ca0cec925f5d75e76485"
+tree_id = "9074f35c4e3716222e7c77691ade9fb30bf9c44d"
 new_structure = true
 
 [graph."storybakery/type_infos@0.1.0 roblox".pkg_ref.dependencies]
@@ -284,7 +284,7 @@ TypeInfos = ["storybakery/type_infos@0.1.0 roblox", "standard"]
 [graph."storybakery/value_by_priority@0.1.0 roblox".pkg_ref]
 ref_ty = "git"
 repo = "https://github.com/StoryBakery/ValueByPriority"
-tree_id = "f09700ca1e2171f549f29d8fbbf9ba8e5519b8c0"
+tree_id = "335bc7446c46b51d47259c563d72a13889fd6b38"
 new_structure = true
 
 [graph."storybakery/value_by_priority@0.1.0 roblox".pkg_ref.dependencies]
