@@ -2,7 +2,7 @@
 # It is not intended for manual editing.
 format = 2
 name = "storybakery/dynamic_timer"
-version = "0.1.0"
+version = "0.1.2"
 target = "roblox"
 
 [overrides."DynamicTween>Maid"]
@@ -157,13 +157,13 @@ pathfs = [{ name = "jiwonz/pathfs", version = "^0.6.0", index = "https://github.
 result = [{ name = "lukadev_0/result", version = "^1.2.1", index = "https://github.com/pesde-pkg/index" }, "peer"]
 unzip = [{ name = "0x5eal/unzip", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
 
-[graph."story_bakery/setup_project_configs@0.1.12 lune"]
-direct = ["setup-project-configs", { repo = "https://github.com/StoryBakery/setup-project-configs", rev = "0ba9379f8709c3e846ae04180fd8fba854ed52ae" }, "dev"]
+[graph."story_bakery/setup_project_configs@0.1.14 lune"]
+direct = ["setup-project-configs", { repo = "https://github.com/StoryBakery/setup-project-configs", rev = "dfe57071d478cd8744be9bd125a0f11d2b04b742" }, "dev"]
 
-[graph."story_bakery/setup_project_configs@0.1.12 lune".pkg_ref]
+[graph."story_bakery/setup_project_configs@0.1.14 lune".pkg_ref]
 ref_ty = "git"
 repo = "https://github.com/StoryBakery/setup-project-configs"
-tree_id = "fd1b8b23abfe7388816bb435c8e1aa2708eabf08"
+tree_id = "9ea2db6729703eba28052297c43e875e912c5567"
 new_structure = true
 
 [graph."storybakery/buffer_builder@0.1.0 roblox".dependencies]
@@ -190,38 +190,29 @@ new_structure = true
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 
-[graph."storybakery/dynamic_tween@0.1.0 roblox"]
-direct = ["DynamicTween", { repo = "https://github.com/StoryBakery/DynamicTween", rev = "ee4f2e5dfb894f5d459a1dc573e2a0387020ad74" }, "standard"]
-
-[graph."storybakery/dynamic_tween@0.1.0 roblox".dependencies]
-LinearInterpolation = ["storybakery/linear_interpolation@0.1.0 roblox", "standard"]
-Maid = ["storybakery/maid@0.1.1 roblox", "standard"]
-MathUtil = ["storybakery/math_util@0.1.0 roblox", "standard"]
-Signal = ["storybakery/signal@0.1.2 roblox", "standard"]
-
-[graph."storybakery/dynamic_tween@0.1.0 roblox".pkg_ref]
+[graph."storybakery/buffer_reader@0.1.1 roblox".pkg_ref]
 ref_ty = "git"
-repo = "https://github.com/StoryBakery/DynamicTween"
-tree_id = "11dade67018e27d87a678ef731d17e8e4d0fa967"
+repo = "https://github.com/StoryBakery/BufferReader"
+tree_id = "467f2e0ef5d68e31936ca113c7db7446fb269bfd"
 new_structure = true
 
-[graph."storybakery/dynamic_tween@0.1.0 roblox".pkg_ref.dependencies]
-LinearInterpolation = [{ repo = "https://github.com/StoryBakery/LinearInterpolation", rev = "main" }, "standard"]
-Maid = [{ repo = "https://github.com/StoryBakery/Maid", rev = "main" }, "standard"]
-MathUtil = [{ repo = "https://github.com/StoryBakery/MathUtil", rev = "main" }, "standard"]
+[graph."storybakery/buffer_reader@0.1.1 roblox".pkg_ref.dependencies]
+pesde-gitrev = [{ repo = "https://github.com/StoryBakery/pesde-gitrev", rev = "720daa5342f214c4ee53c978e56daae5884199a2" }, "dev"]
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
-Signal = [{ repo = "https://github.com/StoryBakery/Signal", rev = "main" }, "standard"]
+setup-project-configs = [{ repo = "https://github.com/StoryBakery/setup-project-configs", rev = "0ba9379f8709c3e846ae04180fd8fba854ed52ae" }, "dev"]
 
-[graph."storybakery/linear_interpolation@0.1.0 roblox".pkg_ref]
+[graph."storybakery/linear_interpolation@0.1.1 roblox".pkg_ref]
 ref_ty = "git"
 repo = "https://github.com/StoryBakery/LinearInterpolation"
-tree_id = "7e032da1da8801b5a13e1be79db0742978e1a942"
+tree_id = "8800ab4a0ae78a59eae0513fc1a0a3e6a2bfe719"
 new_structure = true
 
-[graph."storybakery/linear_interpolation@0.1.0 roblox".pkg_ref.dependencies]
+[graph."storybakery/linear_interpolation@0.1.1 roblox".pkg_ref.dependencies]
+pesde-gitrev = [{ repo = "https://github.com/StoryBakery/pesde-gitrev", rev = "720daa5342f214c4ee53c978e56daae5884199a2" }, "dev"]
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+setup-project-configs = [{ repo = "https://github.com/StoryBakery/setup-project-configs", rev = "0ba9379f8709c3e846ae04180fd8fba854ed52ae" }, "dev"]
 
 [graph."storybakery/maid@0.1.1 roblox"]
 direct = ["Maid", { repo = "https://github.com/StoryBakery/Maid", rev = "d23aca3d40f14b4f08ff83f33119094de1b9e819" }, "standard"]
@@ -240,23 +231,26 @@ rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/p
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 Signal = [{ repo = "https://github.com/StoryBakery/Signal", rev = "main" }, "standard"]
 
-[graph."storybakery/math_util@0.1.0 roblox".pkg_ref]
+[graph."storybakery/math_util@0.1.2 roblox"]
+direct = ["MathUtil", { repo = "https://github.com/StoryBakery/MathUtil", rev = "273845db3ca6be087a8ba9ae6505a234d0bd5683" }, "standard"]
+
+[graph."storybakery/math_util@0.1.2 roblox".pkg_ref]
 ref_ty = "git"
 repo = "https://github.com/StoryBakery/MathUtil"
-tree_id = "d10abc46faa55f210e972dd06467f42f26cb7fd0"
+tree_id = "5d27ace549ea43fdc11c695166d9b6987ac92565"
 new_structure = true
 
-[graph."storybakery/math_util@0.1.0 roblox".pkg_ref.dependencies]
+[graph."storybakery/math_util@0.1.2 roblox".pkg_ref.dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 
-[graph."storybakery/pesde_gitrev@0.1.3 lune"]
-direct = ["pesde-gitrev", { repo = "https://github.com/StoryBakery/pesde-gitrev", rev = "720daa5342f214c4ee53c978e56daae5884199a2" }, "dev"]
+[graph."storybakery/pesdekery@0.0.0 lune"]
+direct = ["pesde-gitrev", { repo = "https://github.com/StoryBakery/pesde-gitrev", rev = "4140e2dd9ea9fa36d6660c14c831488358d86ab3" }, "dev"]
 
-[graph."storybakery/pesde_gitrev@0.1.3 lune".pkg_ref]
+[graph."storybakery/pesdekery@0.0.0 lune".pkg_ref]
 ref_ty = "git"
 repo = "https://github.com/StoryBakery/pesde-gitrev"
-tree_id = "b1e3adb999485d8d458cd078963d41564d4ab8ec"
+tree_id = "35ab127e788f85cb66b165a9cf417812dcc63375"
 new_structure = true
 
 [graph."storybakery/replicated_instance_id@0.1.0 roblox".dependencies]
@@ -314,13 +308,13 @@ rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/p
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 TableUtil = [{ repo = "https://github.com/StoryBakery/TableUtil", rev = "main" }, "standard"]
 
-[graph."storybakery/value_by_priority@0.1.4 roblox"]
-direct = ["ValueByPriority", { repo = "https://github.com/StoryBakery/ValueByPriority", rev = "75a790ee4ad00edba0f94db2e12e38edd6c4d618" }, "standard"]
+[graph."storybakery/value_by_priority@0.1.6 roblox"]
+direct = ["ValueByPriority", { repo = "https://github.com/StoryBakery/ValueByPriority", rev = "103255340f58d986b52611e4d2d5d238da850956" }, "standard"]
 
-[graph."storybakery/value_by_priority@0.1.4 roblox".dependencies]
+[graph."storybakery/value_by_priority@0.1.6 roblox".dependencies]
 BufferBuilder = ["storybakery/buffer_builder@0.1.0 roblox", "standard"]
-BufferReader = ["storybakery/buffer_reader@0.1.0 roblox", "standard"]
-LinearInterpolation = ["storybakery/linear_interpolation@0.1.0 roblox", "standard"]
+BufferReader = ["storybakery/buffer_reader@0.1.1 roblox", "standard"]
+LinearInterpolation = ["storybakery/linear_interpolation@0.1.1 roblox", "standard"]
 Maid = ["storybakery/maid@0.1.1 roblox", "standard"]
 promise = ["wally#evaera/promise@4.0.0 roblox", "standard"]
 ReplicatedInstanceId = ["storybakery/replicated_instance_id@0.1.0 roblox", "standard"]
@@ -328,24 +322,24 @@ Signal = ["storybakery/signal@0.1.2 roblox", "standard"]
 TableUtil = ["storybakery/table_util@0.1.0 roblox", "standard"]
 TypeInfos = ["storybakery/type_infos@0.1.1 roblox", "standard"]
 
-[graph."storybakery/value_by_priority@0.1.4 roblox".pkg_ref]
+[graph."storybakery/value_by_priority@0.1.6 roblox".pkg_ref]
 ref_ty = "git"
 repo = "https://github.com/StoryBakery/ValueByPriority"
-tree_id = "466bf5a503441ae88a2b2be95d8ae4c23eb6f885"
+tree_id = "c2e1287f2a9016beeeb1775e1a424171a09e4482"
 new_structure = true
 
-[graph."storybakery/value_by_priority@0.1.4 roblox".pkg_ref.dependencies]
+[graph."storybakery/value_by_priority@0.1.6 roblox".pkg_ref.dependencies]
 BufferBuilder = [{ repo = "https://github.com/StoryBakery/BufferBuilder", rev = "02a2fb0180137fce712100a8b205ef4b8d5e5752" }, "standard"]
-BufferReader = [{ repo = "https://github.com/StoryBakery/BufferReader", rev = "main" }, "standard"]
-LinearInterpolation = [{ repo = "https://github.com/StoryBakery/LinearInterpolation", rev = "c522819b5515edb45f1518244252f58c8f9e05ee" }, "standard"]
-Maid = [{ repo = "https://github.com/StoryBakery/Maid", rev = "0fc3dddb5b709f30c90cf0d63f031113c26ce207" }, "standard"]
-pesde-gitrev = [{ repo = "https://github.com/StoryBakery/pesde-gitrev", rev = "a2d6f1e71ac6264ff2b48fd2178271f80135772e" }, "dev"]
+BufferReader = [{ repo = "https://github.com/StoryBakery/BufferReader", rev = "b398d6f399a8f2910963eacedb8d05282aaf958a" }, "standard"]
+LinearInterpolation = [{ repo = "https://github.com/StoryBakery/LinearInterpolation", rev = "4b5dfbedba536567f3d494e519ddbb71360dbf5a" }, "standard"]
+Maid = [{ repo = "https://github.com/StoryBakery/Maid", rev = "d23aca3d40f14b4f08ff83f33119094de1b9e819" }, "standard"]
+pesde-gitrev = [{ repo = "https://github.com/StoryBakery/pesde-gitrev", rev = "720daa5342f214c4ee53c978e56daae5884199a2" }, "dev"]
 promise = [{ wally = "wally#evaera/promise", version = "^4.0.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
 ReplicatedInstanceId = [{ repo = "https://github.com/StoryBakery/ReplicatedInstanceId", rev = "acf7dc27b7dfd6058aaf8b29833f132a71c0e445" }, "standard"]
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
-setup-project-configs = [{ repo = "https://github.com/StoryBakery/setup-project-configs", rev = "8e77c9722c25b0a4ea6ed1415ab18fc8db2ff9e2" }, "dev"]
-Signal = [{ repo = "https://github.com/StoryBakery/Signal", rev = "15e95d125e3c7c1a487c86da30608c5f7dc4b1f3" }, "standard"]
+setup-project-configs = [{ repo = "https://github.com/StoryBakery/setup-project-configs", rev = "0ba9379f8709c3e846ae04180fd8fba854ed52ae" }, "dev"]
+Signal = [{ repo = "https://github.com/StoryBakery/Signal", rev = "6b736fa475ea571a0cb488b7ffbcc0f775d9fb5a" }, "standard"]
 TableUtil = [{ repo = "https://github.com/StoryBakery/TableUtil", rev = "961700292dd382b062955e16cac7ccccc361cdfa" }, "standard"]
 TypeInfos = [{ repo = "https://github.com/StoryBakery/TypeInfos", rev = "a7362072a5afd85bee6583f05398a09438a039b5" }, "standard"]
 
